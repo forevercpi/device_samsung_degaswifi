@@ -1,4 +1,4 @@
-# SM-T230NU-Degaswifi-LineageOS-14.1
+# android_device_samsung_degaswifi
 # Device configuration for Samsung Galaxy Tab 4 7"
 
 ## Spec Sheet
