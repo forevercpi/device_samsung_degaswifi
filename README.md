@@ -32,6 +32,12 @@ repo init -u git://github.com/LineageOS/android.git -b lineage-15.0
 Then to sync up:
 
 repo sync
+
+Choose a target:
+
+lunch degaswifi
+
+repo sync
 Please see the LineageOS Wiki for building instructions.
 
 
