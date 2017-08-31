@@ -20,6 +20,22 @@
 ## Device Picture
 ![Galaxy Tab 4 7"](http://cdn2.gsmarena.com/vv/bigpic/samsung-galaxy-tab-4-70.jpg "Galaxy Tab 4 7")
 
+
+
+Getting Started
+
+To get started with Android/LineageOS, you'll need to get familiar with Git and Repo.
+
+To initialize your local repository using the LineageOS trees, use a command like this:
+
+repo init -u git://github.com/LineageOS/android.git -b lineage-15.0
+Then to sync up:
+
+repo sync
+Please see the LineageOS Wiki for building instructions.
+
+
+
 ## Copyright
 
 ```
