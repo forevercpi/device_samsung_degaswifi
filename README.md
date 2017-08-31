@@ -29,6 +29,7 @@ To get started with Android/LineageOS, you'll need to get familiar with Git and 
 To initialize your local repository using the LineageOS trees, use a command like this:
 
 repo init -u git://github.com/LineageOS/android.git -b lineage-15.0
+
 Then to sync up:
 
 repo sync
