@@ -27,7 +27,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>android_device_samsung_degaswifi/aosp_degaswifi.mk at O8.0 · android-Marvell/android_device_samsung_degaswifi · GitHub</title>
+  <title>android_device_samsung_degaswifi/aosp_degaswifi.mk at o8.0 · android-Marvell/android_device_samsung_degaswifi · GitHub</title>
   <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
   <meta property="fb:app_id" content="1401488693436528">
@@ -71,7 +71,7 @@
   <meta http-equiv="x-pjax-version" content="3f5673caadbee5d220fc5d2817e554c8">
   
 
-      <link href="https://github.com/android-Marvell/android_device_samsung_degaswifi/commits/kk4.4.atom" rel="alternate" title="Recent Commits to android_device_samsung_degaswifi:kk4.4" type="application/atom+xml">
+      <link href="https://github.com/android-Marvell/android_device_samsung_degaswifi/commits/o8.0" rel="alternate" title="Recent Commits to android_device_samsung_degaswifi:kk4.4" type="application/atom+xml">
 
   <meta name="description" content="Contribute to android_device_samsung_degaswifi development by creating an account on GitHub.">
   <meta name="go-import" content="github.com/android-Marvell/android_device_samsung_degaswifi git https://github.com/android-Marvell/android_device_samsung_degaswifi.git">
@@ -79,7 +79,7 @@
   <meta content="21689064" name="octolytics-dimension-user_id" /><meta content="android-Marvell" name="octolytics-dimension-user_login" /><meta content="67157340" name="octolytics-dimension-repository_id" /><meta content="android-Marvell/android_device_samsung_degaswifi" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="67157340" name="octolytics-dimension-repository_network_root_id" /><meta content="android-Marvell/android_device_samsung_degaswifi" name="octolytics-dimension-repository_network_root_nwo" /><meta content="false" name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" />
 
 
-    <link rel="canonical" href="https://github.com/android-Marvell/android_device_samsung_degaswifi/blob/kk4.4/aosp_degaswifi.mk" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/android-Marvell/android_device_samsung_degaswifi/blob/o8.0/aosp_degaswifi.mk" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -378,7 +378,7 @@
 
 
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/android-Marvell/android_device_samsung_degaswifi/blob/cm-11.0/aosp_degaswifi.mk"
+               href="/android-Marvell/android_device_samsung_degaswifi/blob/lineage-15.0/aosp_degaswifi.mk"
                data-name="cm-11.0"
                data-skip-pjax="true"
                rel="nofollow">
@@ -388,7 +388,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open selected"
-               href="/android-Marvell/android_device_samsung_degaswifi/blob/kk4.4/aosp_degaswifi.mk"
+               href="/android-Marvell/android_device_samsung_degaswifi/blob/o8.0/aosp_degaswifi.mk"
                data-name="kk4.4"
                data-skip-pjax="true"
                rel="nofollow">
@@ -445,9 +445,9 @@
   <div class="file-actions">
 
     <div class="BtnGroup">
-      <a href="/android-Marvell/android_device_samsung_degaswifi/raw/kk4.4/aosp_degaswifi.mk" class="btn btn-sm BtnGroup-item" id="raw-url">Raw</a>
-        <a href="/android-Marvell/android_device_samsung_degaswifi/blame/kk4.4/aosp_degaswifi.mk" class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b">Blame</a>
-      <a href="/android-Marvell/android_device_samsung_degaswifi/commits/kk4.4/aosp_degaswifi.mk" class="btn btn-sm BtnGroup-item" rel="nofollow">History</a>
+      <a href="/android-Marvell/android_device_samsung_degaswifi/raw/o8.0/aosp_degaswifi.mk" class="btn btn-sm BtnGroup-item" id="raw-url">Raw</a>
+        <a href="/android-Marvell/android_device_samsung_degaswifi/blame/o8.0/aosp_degaswifi.mk" class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b">Blame</a>
+      <a href="/android-Marvell/android_device_samsung_degaswifi/commits/o8.0/aosp_degaswifi.mk" class="btn btn-sm BtnGroup-item" rel="nofollow">History</a>
     </div>
 
 
