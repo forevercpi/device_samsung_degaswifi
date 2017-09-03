@@ -345,7 +345,7 @@
     
     type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
       <i>Branch:</i>
-      <span class="js-select-button css-truncate-target">kk4.4</span>
+      <span class="js-select-button css-truncate-target">o8.0</span>
   </button>
 
   <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
@@ -379,7 +379,7 @@
 
             <a class="select-menu-item js-navigation-item js-navigation-open "
                href="/android-Marvell/android_device_samsung_degaswifi/blob/lineage-15.0/aosp_degaswifi.mk"
-               data-name="cm-11.0"
+               data-name="lineage-15.0"
                data-skip-pjax="true"
                rel="nofollow">
               <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
@@ -389,7 +389,7 @@
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open selected"
                href="/android-Marvell/android_device_samsung_degaswifi/blob/o8.0/aosp_degaswifi.mk"
-               data-name="kk4.4"
+               data-name="o8.0"
                data-skip-pjax="true"
                rel="nofollow">
               <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
