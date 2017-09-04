@@ -1,7 +1,7 @@
 [
     {
         "repository": "android_kernel_samsung_degaswifi",
-        "target_path": "kernel/samsung/degaswifi"
+        "target_path": "kernel/samsung/degas"
     },
     {
         "repository": "android_external_stlport",
