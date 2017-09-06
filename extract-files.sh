@@ -62,11 +62,11 @@ for FILE in `cat $COMMONPROPS | grep -v ^# | grep -v ^$`; do
     if [ $COUNT = "0" ]; then
         LINEEND=""
     fi
-    echo "    \vendor/samsung/espresso-common/proprietary/$FILE:$FILE$LINEEND" >> $COMMONMAKEFILE
+    echo "    \vendor/samsung/degaswifi-common/proprietary/$FILE:$FILE$LINEEND" >> $COMMONMAKEFILE
 done
 
 
-(cat << EOF) | sed s/__COMMON__/$COMMON/g | sed s/__VENDOR__/$VENDOR/g > ../../../$COMMONOUTDIR/espresso-common-vendor.mk
+(cat << EOF) | sed s/__COMMON__/$COMMON/g | sed s/__VENDOR__/$VENDOR/g > ../../../$COMMONOUTDIR/degaswifi-common-vendor.mk
 # Copyright (C) 2015 SlimRoms
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
