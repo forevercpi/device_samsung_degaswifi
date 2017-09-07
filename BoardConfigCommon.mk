@@ -25,7 +25,7 @@
 
 TARGET_NO_BOOTLOADER := true
 
-TARGET_BOOTLOADER_BOARD_NAME := Marvell PXA1088
+TARGET_BOOTLOADER_BOARD_NAME := PXA1088
 
 # Inline kernel building
 TARGET_KERNEL_SOURCE := kernel/samsung/degaswifi
