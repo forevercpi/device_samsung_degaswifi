@@ -34,7 +34,7 @@ TARGET_CPU_SMP := true
 
 # Kernel, bootloader, etc.
 TARGET_KERNEL_SOURCE := kernel/samsung/degaswifi
-TARGET_KERNEL_CONFIG := cyanogenmod_degaswifi_defconfig
+TARGET_KERNEL_CONFIG := lineage_degaswifi_defconfig
 BOARD_KERNEL_BASE := 0x10000000
 BOARD_CUSTOM_MKBOOTIMG := device/samsung/degaswifi/degas-mkbootimg
 BOARD_CUSTOM_BOOTIMG_MK := device/samsung/degaswifi/degaswifi_mkbootimg.mk
