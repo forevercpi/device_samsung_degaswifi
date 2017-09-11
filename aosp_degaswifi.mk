@@ -27,7 +27,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>android_device_samsung_degaswifi/aosp_degaswifi.mk at o8.0 · android-Marvell/android_device_samsung_degaswifi · GitHub</title>
+  <title>android_device_samsung_degaswifi/aosp_degaswifi.mk at kk4.4 · android-Marvell/android_device_samsung_degaswifi · GitHub</title>
   <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
   <meta property="fb:app_id" content="1401488693436528">
@@ -71,7 +71,7 @@
   <meta http-equiv="x-pjax-version" content="3f5673caadbee5d220fc5d2817e554c8">
   
 
-      <link href="https://github.com/android-Marvell/android_device_samsung_degaswifi/commits/o8.0" rel="alternate" title="Recent Commits to android_device_samsung_degaswifi:kk4.4" type="application/atom+xml">
+      <link href="https://github.com/android-Marvell/android_device_samsung_degaswifi/commits/kk4.4" rel="alternate" title="Recent Commits to android_device_samsung_degaswifi:kk4.4" type="application/atom+xml">
 
   <meta name="description" content="Contribute to android_device_samsung_degaswifi development by creating an account on GitHub.">
   <meta name="go-import" content="github.com/android-Marvell/android_device_samsung_degaswifi git https://github.com/android-Marvell/android_device_samsung_degaswifi.git">
@@ -162,7 +162,7 @@
             <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
   <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/android-Marvell/android_device_samsung_degaswifi/search" class="js-site-search-form" data-scoped-search-url="/android-Marvell/android_device_samsung_degaswifi/search" data-unscoped-search-url="/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
     <label class="form-control header-search-wrapper js-chromeless-input-container">
-        <a href="/android-Marvell/android_device_samsung_degaswifi/blob/O8.0/aosp_degaswifi.mk" class="header-search-scope no-underline">This repository</a>
+        <a href="/android-Marvell/android_device_samsung_degaswifi/blob/kk4.4/aosp_degaswifi.mk" class="header-search-scope no-underline">This repository</a>
       <input type="text"
         class="form-control header-search-input js-site-search-focus js-site-search-field is-clearable"
         data-hotkey="s"
