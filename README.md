@@ -22,23 +22,27 @@
 
 
 
+LineageOS 15
+============
+
 Getting Started
+---------------
 
-To get started with Android/LineageOS, you'll need to get familiar with Git and Repo.
+To get started with Android for degaswifi, you'll need to get
+familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
-To initialize your local repository using the LineageOS trees, use a command like this:
+To initialize your local repository, use a command like this:
 
-repo init -u git://github.com/LineageOS/android.git -b lineage-15.0
+    repo init -u git://github.com/secretwolf98/device_samsung_degaswifi -b lineage-15.0
 
 Then to sync up:
 
-repo sync
+    repo sync
 
-Choose a target:
+Choose target:
 
-lunch degaswifi
+    lunch degaswifi
 
-repo sync
 Please see the LineageOS Wiki for building instructions.
 
 
