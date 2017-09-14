@@ -1,4 +1,4 @@
-# android_device_samsung_degaswifi LineageOS 15
+# device_samsung_degaswifi
 # Device configuration for Samsung Galaxy Tab 4 7"
 
 ## Spec Sheet
