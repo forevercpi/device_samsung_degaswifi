@@ -71,7 +71,7 @@
   <meta http-equiv="x-pjax-version" content="3f5673caadbee5d220fc5d2817e554c8">
   
 
-      <link href="https://github.com/android-Marvell/android_device_samsung_degaswifi/commits/kk4.4.atom" rel="alternate" title="Recent Commits to android_device_samsung_degaswifi:o8.0" type="application/atom+xml">
+      <link href="https://github.com/android-Marvell/android_device_samsung_degaswifi/commits/kk4.4.atom" rel="alternate" title="Recent Commits to android_device_samsung_degaswifi:kk4.4" type="application/atom+xml">
 
   <meta name="description" content="Contribute to android_device_samsung_degaswifi development by creating an account on GitHub.">
   <meta name="go-import" content="github.com/android-Marvell/android_device_samsung_degaswifi git https://github.com/android-Marvell/android_device_samsung_degaswifi.git">
@@ -79,7 +79,7 @@
   <meta content="21689064" name="octolytics-dimension-user_id" /><meta content="android-Marvell" name="octolytics-dimension-user_login" /><meta content="67157340" name="octolytics-dimension-repository_id" /><meta content="android-Marvell/android_device_samsung_degaswifi" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="67157340" name="octolytics-dimension-repository_network_root_id" /><meta content="android-Marvell/android_device_samsung_degaswifi" name="octolytics-dimension-repository_network_root_nwo" /><meta content="false" name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" />
 
 
-    <link rel="canonical" href="https://github.com/android-Marvell/android_device_samsung_degaswifi/blob/o8.0/ramdisk/init.wifi.rc" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/android-Marvell/android_device_samsung_degaswifi/blob/kk4.4/ramdisk/init.wifi.rc" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
