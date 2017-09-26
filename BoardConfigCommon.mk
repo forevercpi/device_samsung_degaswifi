@@ -15,7 +15,7 @@
 #
 
 # Inherit LineageOS specific board config
--include device/samsung/espressowifi/BoardConfigCM.mk
+-include device/samsung/degaswifi/BoardConfigCM.mk
 
 # Inherit common omap4 board config
 -include hardware/ti/omap4/BoardConfigCommon.mk
@@ -78,5 +78,5 @@ BOARD_SEPOLICY_DIRS += \
 
 # Recovery
 RECOVERY_FSTAB_VERSION := 2
-TARGET_RECOVERY_FSTAB := device/samsung/degaswifi/rootdir/fstab.degaswifi
+TARGET_RECOVERY_FSTAB := device/samsung/degaswifi/fstab.degaswifi
 TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
