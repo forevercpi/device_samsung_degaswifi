@@ -38,7 +38,7 @@ TARGET_KERNEL_CONFIG := lineage_degaswifi_defconfig
 BOARD_KERNEL_BASE := 0x10000000
 BOARD_CUSTOM_MKBOOTIMG := device/samsung/degaswifi/degas-mkbootimg
 BOARD_CUSTOM_BOOTIMG_MK := device/samsung/degaswifi/degaswifi_mkbootimg.mk
-BOARD_MKBOOTIMG_ARGS := --dt device/samsung/degaswifi/rootdir/boot.img-dt --ramdisk_offset 0x01000000
+BOARD_MKBOOTIMG_ARGS := --dt device/samsung/degaswifi/boot.img-dt --ramdisk_offset 0x01000000
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_KERNEL_CMDLINE := androidboot.selinux=disabled
 TARGET_BOOTLOADER_BOARD_NAME := PXA1088
@@ -94,7 +94,7 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 BOARD_UMS_LUNFILE := "/sys/class/android_usb/f_mass_storage/lun0/file"
 
 # Recovery
-TARGET_RECOVERY_FSTAB := device/samsung/degaswifi/rootdir/fstab.pxa1088
+TARGET_RECOVERY_FSTAB := device/samsung/degaswifi/fstab.pxa1088
 TARGET_PLATFORM_DEVICE_BASE := /devices/soc.2/
 
 # Vold
