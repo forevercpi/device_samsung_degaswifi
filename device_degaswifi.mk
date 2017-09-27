@@ -84,21 +84,21 @@ PRODUCT_PACKAGES += \
 
 # Graphics config
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/gfx.cfg:system/etc/gfx.cfg \
-    $(LOCAL_PATH)/configs/dms.cfg:system/etc/dms.cfg
+    $(LOCAL_PATH)/gfx.cfg:system/etc/gfx.cfg \
+    $(LOCAL_PATH)/dms.cfg:system/etc/dms.cfg
 
 # fstab:
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/fstab.pxa1088:root/fstab.pxa1088 \
-    $(LOCAL_PATH)/rootdir/extra.fstab:recovery/root/etc/extra.fstab \
-    $(LOCAL_PATH)/rootdir/twrp.fstab:recovery/root/etc/twrp.fstab
+    $(LOCAL_PATH)/fstab.pxa1088:root/fstab.pxa1088 \
+    $(LOCAL_PATH)/extra.fstab:recovery/root/etc/extra.fstab \
+    $(LOCAL_PATH)/twrp.fstab:recovery/root/etc/twrp.fstab
 
 # init.rc's:
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/init.recovery.pxa1088.rc:root/init.recovery.pxa1088.rc \
-    $(LOCAL_PATH)/rootdir/init.pxa1088.rc:root/init.pxa1088.rc \
-    $(LOCAL_PATH)/rootdir/init.pxa1088.usb.rc:root/init.pxa1088.usb.rc \
-    $(LOCAL_PATH)/rootdir/init.pxa1088.tel.rc:root/init.pxa1088.tel.rc
+    $(LOCAL_PATH)/init.recovery.pxa1088.rc:root/init.recovery.pxa1088.rc \
+    $(LOCAL_PATH)/init.pxa1088.rc:root/init.pxa1088.rc \
+    $(LOCAL_PATH)/init.pxa1088.usb.rc:root/init.pxa1088.usb.rc \
+    $(LOCAL_PATH)/init.pxa1088.tel.rc:root/init.pxa1088.tel.rc
 
 # Init files
 PRODUCT_PACKAGES += \
@@ -109,7 +109,7 @@ PRODUCT_PACKAGES += \
 
 # uevent.rc
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/ueventd.pxa1088.rc:root/ueventd.pxa1088.rc
+    $(LOCAL_PATH)/ueventd.pxa1088.rc:root/ueventd.pxa1088.rc
 
 # adb.pub
 PRODUCT_PACKAGES += \
@@ -117,15 +117,15 @@ PRODUCT_PACKAGES += \
 
 # adb.pub
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/adbkey.pub:root/adbkey.pub
+    $(LOCAL_PATH)/adbkey.pub:root/adbkey.pub
 
 # Audio
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/audio_policy.conf:system/etc/audio_policy.conf
+    $(LOCAL_PATH)/audio_policy.conf:system/etc/audio_policy.conf
 
 # Wifi
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf
+    $(LOCAL_PATH)/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf
 
 # Product specific Packages
 PRODUCT_PACKAGES += \
@@ -141,7 +141,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # GPS
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/sirfgps.conf:system/etc/sirfgps.conf
+    $(LOCAL_PATH)/sirfgps.conf:system/etc/sirfgps.conf
 
 # Misc
 PRODUCT_PACKAGES += \
