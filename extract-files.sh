@@ -19,7 +19,7 @@ VENDOR=samsung
 COMMON=degaswifi-common
 COMMONOUTDIR=vendor/$VENDOR/$COMMON
 COMMONBASE=../../../$COMMONOUTDIR/proprietary
-COMMONMAKEFILE=../../../$COMMONOUTDIR/common-vendor-blobs.mk
+COMMONMAKEFILE=../../../$COMMONOUTDIR/device-common.mk
 COMMONPROPS=../$COMMON/proprietary-files.txt
 
 mkdir -p ../../../vendor/$VENDOR/$COMMON/proprietary
@@ -66,7 +66,7 @@ for FILE in `cat $COMMONPROPS | grep -v ^# | grep -v ^$`; do
 done
 
 
-(cat << EOF) | sed s/__COMMON__/$COMMON/g | sed s/__VENDOR__/$VENDOR/g > ../../../$COMMONOUTDIR/degaswifi-common-vendor.mk
+(cat << EOF) | sed s/__COMMON__/$COMMON/g | sed s/__VENDOR__/$VENDOR/g > ../../../$COMMONOUTDIR/device-common.mk
 # Copyright (C) 2015 SlimRoms
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -81,10 +81,10 @@ done
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-\$(call inherit-product, vendor/__VENDOR__/__COMMON__/common-vendor-blobs.mk)
+\$(call inherit-product, vendor/__VENDOR__/__COMMON__/device-common.mk)
 EOF
 
-(cat << EOF) | sed s/__COMMON__/$COMMON/g | sed s/__VENDOR__/$VENDOR/g > ../../../$COMMONOUTDIR/BoardConfigVendor.mk
+(cat << EOF) | sed s/__COMMON__/$COMMON/g | sed s/__VENDOR__/$VENDOR/g > ../../../$COMMONOUTDIR/BoardConfigCommon.mk
 # Copyright (C) 2015 SlimRoms
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
