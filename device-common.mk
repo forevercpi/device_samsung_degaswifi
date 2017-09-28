@@ -32,14 +32,14 @@ PRODUCT_AAPT_PREF_CONFIG := mdpi
 
 # Init files
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/init.degaswifi.rc:root/init.degaswifi.rc \
-    $(LOCAL_PATH)/rootdir/init.degaswifi.sensors.rc:root/init.degaswifi.sensors.rc \
-    $(LOCAL_PATH)/rootdir/init.degaswifi.usb.rc:root/init.degaswifi.usb.rc \
-    $(LOCAL_PATH)/rootdir/ueventd.degaswifi.rc:root/ueventd.degaswifi.rc
+    $(LOCAL_PATH)/init.degaswifi.rc:root/init.degaswifi.rc \
+    $(LOCAL_PATH)/init.degaswifi.sensors.rc:root/init.degaswifi.sensors.rc \
+    $(LOCAL_PATH)/init.degaswifi.usb.rc:root/init.degaswifi.usb.rc \
+    $(LOCAL_PATH)/ueventd.degaswifi.rc:root/ueventd.degaswifi.rc
 
 # Fstab
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/fstab.degaswifi:root/fstab.degaswifi
+    $(LOCAL_PATH)/fstab.degaswifi:root/fstab.degaswifi
 
 # GPS
 # gps config appropriate for this device
@@ -64,13 +64,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Bluetooth
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/bluetooth/bt_vendor.conf:system/etc/bluetooth/bt_vendor.conf
+    $(LOCAL_PATH)/bt_vendor.conf:system/etc/bluetooth/bt_vendor.conf
 
 # Media profiles
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/media_codecs.xml:system/etc/media_codecs.xml \
-    $(LOCAL_PATH)/configs/media_codecs_google_video.xml:system/etc/media_codecs_google_video.xml \
-    $(LOCAL_PATH)/configs/media_profiles.xml:system/etc/media_profiles.xml \
+    $(LOCAL_PATH)/media_codecs.xml:system/etc/media_codecs.xml \
+    $(LOCAL_PATH)/media_codecs_google_video.xml:system/etc/media_codecs_google_video.xml \
+    $(LOCAL_PATH)/media_profiles.xml:system/etc/media_profiles.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_audio.xml:system/etc/media_codecs_google_audio.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_telephony.xml:system/etc/media_codecs_google_telephony.xml
 
