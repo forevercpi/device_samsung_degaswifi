@@ -16,7 +16,7 @@
 # limitations under the License.
 
 VENDOR=samsung
-COMMON=espresso-common
+COMMON=degaswifi-common
 COMMONOUTDIR=vendor/$VENDOR/$COMMON
 COMMONBASE=../../../$COMMONOUTDIR/proprietary
 COMMONMAKEFILE=../../../$COMMONOUTDIR/common-vendor-blobs.mk
