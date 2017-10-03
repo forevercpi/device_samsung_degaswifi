@@ -1,4 +1,4 @@
-import init.pxa1088.usb.rc
+import init.pxa988.usb.rc
 
 on early-init
     mkdir /efs 0771 radio system
@@ -11,7 +11,7 @@ on init
     
 
     setprop ro.board.platform mrvl
-    chmod 0701 /mnt/media_rw
+     chmod 0701 /mnt/media_rw
     mkdir /mnt/shell/emulated 0700 shell shell
     mkdir /storage 0550 system sdcard_r
     mkdir /storage/emulated 0555 root root
@@ -41,8 +41,8 @@ on init
     setprop ro.adb.secure=0
     setprop ro.debuggable=1
 
-	# Disable SELinux for the time being
-	setenforce 0
++	# Disable SELinux for the time being
++	setenforce 0
 
     write /proc/sys/vm/legacy_va_layout 1
 
@@ -210,7 +210,7 @@ on fs
     #mount ext4 /dev/block/mmcblk0p14 /system ro remount
 
     # for e2fsck bad block of /data partition before mount
-    mount_all /fstab.pxa1088
+    mount_all /fstab.pxa988
 	setprop ro.crypto.fuse_sdcard true
     #mount ext4 /dev/block/mmcblk0p15 /cache
 
@@ -225,8 +225,8 @@ on post-fs
 #    insmod /system/lib/modules/blcr.ko
 
     # ko files for exfat
-    #insmod /system/lib/modules/exfat_core.ko
-    #insmod /system/lib/modules/exfat_fs.ko
+    insmod /system/lib/modules/exfat_core.ko
+    insmod /system/lib/modules/exfat_fs.ko
 
     chown system system /sys/devices/platform/galcore/power/control
 
