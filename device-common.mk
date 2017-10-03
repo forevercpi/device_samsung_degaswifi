@@ -32,14 +32,14 @@ PRODUCT_AAPT_PREF_CONFIG := mdpi
 
 # Init files
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/init.PXA1088.rc:root/init.PXA1088.rc \
+    $(LOCAL_PATH)/init.pxa1088.rc:root/init.PXA1088.rc \
     $(LOCAL_PATH)/init.degaswifi.sensors.rc:root/init.degaswifi.sensors.rc \
-    $(LOCAL_PATH)/init.PXA1088.usb.rc:root/init.PXA1088.usb.rc \
+    $(LOCAL_PATH)/init.pxa1088.usb.rc:root/init.PXA1088.usb.rc \
     $(LOCAL_PATH)/ueventd.degaswifi.rc:root/ueventd.degaswifi.rc
 
 # Fstab
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/fstab.PXA1088:root/fstab.PXA1088
+    $(LOCAL_PATH)/fstab.pxa1088:root/fstab.pxa1088
 
 # GPS
 # gps config appropriate for this device
